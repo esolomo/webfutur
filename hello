@@ -1,6 +1,6 @@
 ---
 - hosts: base
-  user: ubuntu
+  user: admin
   sudo: True
   tasks:
     - name: This command will change the working directory to somedir/ and will only run when somedir/somelog.txt doesn't exist.
