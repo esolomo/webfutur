@@ -12,7 +12,7 @@
       shell: echo ${env} >> /tmp/somelog.txt
       args:
         chdir: /tmp/
-	creates: /tmp/somelog.txt        
+        creates: /tmp/somelog.txt
 
   handlers:
     - name: start nginx
