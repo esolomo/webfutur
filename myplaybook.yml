@@ -1,8 +1,7 @@
 ---
 - hosts: ec2-35-176-139-111.eu-west-2.compute.amazonaws.com
-  user:ubuntu
+  user: ubuntu
   sudo: True
-
   tasks:
     - name: Installs nginx web server
       apt: pkg=nginx state=installed update_cache=true
