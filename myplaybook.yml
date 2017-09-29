@@ -1,5 +1,5 @@
 ---
-- hosts: ec2-35-176-139-111.eu-west-2.compute.amazonaws.com
+- hosts: base
   user: ubuntu
   sudo: True
   tasks:
