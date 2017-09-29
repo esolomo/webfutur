@@ -8,12 +8,11 @@
       notify:
         - start nginx
 
-  # You can also use the 'args' form to provide the options.
-     - name: This command will change the working directory to somedir/ and will only run when somedir/somelog.txt doesn't exist.
+    - name: This command will change the working directory to somedir/ and will only run when somedir/somelog.txt doesn't exist.
       shell: echo ${env} >> /tmp/somelog.txt
       args:
         chdir: /tmp/
-        creates: /tmp/somelog.txt
+	creates: /tmp/somelog.txt        
 
   handlers:
     - name: start nginx
