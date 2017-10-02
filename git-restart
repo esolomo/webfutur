@@ -1,0 +1,10 @@
+---
+- hosts: base
+  user: admin
+  sudo: True
+  tasks:
+    - name: Restarting Git Server
+      shell: ls /tmp/
+
+
+
