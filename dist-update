@@ -7,8 +7,6 @@
       apt:
 	upgrade: dist
 
-    - name: This command will change the working directory to somedir/ and will only run when somedir/somelog.txt doesn't exist.
-      shell: echo {{ env }} >> /tmp/somelog.txt
 
 
 
