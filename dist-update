@@ -3,10 +3,6 @@
   user: admin
   sudo: True
   tasks:
-    - name: This command will change the working directory to somedir/ and will only run when somedir/somelog.txt doesn't exist.
+    - name: Update All Nodes
       apt:
-	upgrade: dist
-
-
-
-
+        upgrade: dist
