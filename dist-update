@@ -2,7 +2,7 @@
 - hosts: base
   user: admin
   sudo: True
-  tasks
+  tasks:
     - name: This command will change the working directory to somedir/ and will only run when somedir/somelog.txt doesn't exist.
       apt:
 	upgrade: dist
